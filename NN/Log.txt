@@ -1,0 +1,23 @@
+6.15
+实现了2层的神经网络  
+第一层20个节点 第二层10个
+但是准确率只保持在85.2% = 训练集中为0的个个数
+网络训练出来的恒等于0
+
+初步估计： 有缺陷数据太少，导致loss function接近拟合但准确率不会提高
+
+神经网络概念介绍：
+www.36dsj.com/archives/39775
+
+6.20
+处理训练集中不平衡问题
+http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+
+http://blog.csdn.net/heyongluoyao8/article/details/49408131
+
+undersampling
+
+oversampling
+SMOTE
+
+
